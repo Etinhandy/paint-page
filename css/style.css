@@ -634,7 +634,9 @@ html {
     flex-direction: column;
     align-items: center;
   }
-
+  .quality-section .quality-section-img img {
+    width: 25vh;
+  }
   .quality-section .quality-section-img {
     height: 15em;
   }
@@ -726,8 +728,5 @@ html {
   .drawing-section {
     height: 130vh;
     background-position: 81.49% 50%;
-  }
-  .quality-section .quality-section-img img {
-    width: 30vh;
   }
 }
