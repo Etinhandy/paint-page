@@ -490,6 +490,9 @@ html {
   .quality-section .quality-section-text p {
     font-size: 1.2rem;
   }
+  .quality-section .quality-section-img img {
+    width: 30vh;
+  }
   .slice {
     width: 250px;
   }
