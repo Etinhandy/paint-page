@@ -634,8 +634,10 @@ html {
     padding: 0;
   }
   .quality-section-img img {
-    height: 60%;
-    width: 60%;
+    height: 80%;
+    width: 80%;
+    position: relative;
+    left: 10px;
   }
   .qualty-section {
     height: 120vh;
@@ -666,7 +668,7 @@ html {
   }
 
   .services-section {
-    height: 360vh;
+    height: 270vh;
   }
   .service-div {
     display: flex;
@@ -683,7 +685,7 @@ html {
   }
 
   .plumbing-section {
-    height: 390vh;
+    height: 250vh;
     display: flex;
     flex-direction: column;
   }
