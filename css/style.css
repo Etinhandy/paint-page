@@ -727,4 +727,7 @@ html {
     height: 130vh;
     background-position: 81.49% 50%;
   }
+  .quality-section .quality-section-img img {
+    width: 30vh;
+  }
 }
