@@ -472,12 +472,13 @@ html {
   }
   .quality-section .quality-section-img {
     width: 100%;
-    zoom: 1.3;
-    margin-left: 3rem;
+    zoom: 1.2;
+    margin-left: 1rem;
+    right: 20px;
   }
 
   .qualty-section .quality-section-text {
-    width: 100%;
+    width: 80%;
     padding-top: 10rem;
     margin-right: 4rem;
   }
