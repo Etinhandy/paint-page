@@ -491,7 +491,7 @@ html {
     font-size: 1.2rem;
   }
   .quality-section .quality-section-img img {
-    width: 30vh;
+    width: 60vh;
   }
   .slice {
     width: 250px;
@@ -591,6 +591,7 @@ html {
   }
   .our-section .our-section-div {
     width: 90%;
+    margin: auto;
   }
 
   .our-section-div h3 {
@@ -599,6 +600,8 @@ html {
 
   .our-section-div h2 {
     font-size: 1.5rem;
+    width: 80%;
+    margin: auto;
   }
 
   .workers-section {
@@ -655,7 +658,7 @@ html {
   }
   .services-section-div h2 {
     position: relative;
-    right: 20px;
+    right: 2rem;
   }
   .services-section {
     height: 260vh;
@@ -719,5 +722,9 @@ html {
   }
   .to-do-section-div p {
     margin-bottom: 10%;
+  }
+  .drawing-section {
+    height: 130vh;
+    background-position: 81.49% 50%;
   }
 }
