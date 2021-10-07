@@ -653,7 +653,10 @@ html {
     padding: 4rem 0 0rem 5rem;
     font-weight: 600;
   }
-
+  .services-section-div h2 {
+    position: relative;
+    right: 20px;
+  }
   .services-section {
     height: 260vh;
   }
