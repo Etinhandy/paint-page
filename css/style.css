@@ -557,13 +557,19 @@ html {
 
 @media (max-width: 425px) {
   * {
-    margin: auto;
+    margin: 0;
+    text-align: center;
+  }
+  .body {
+    width: auto;
+    /* background-color: red; */
   }
   .but-1 {
     margin: auto;
   }
   .but-2 {
     margin-top: 2rem;
+    margin-left: 5rem;
   }
   .icon {
     display: none;
@@ -574,8 +580,8 @@ html {
   }
 
   .drawing-section-text {
-    margin-left: 4rem;
-    padding-top: 27rem;
+    margin-left: 1rem;
+    padding-top: 14rem;
   }
 
   .drawing-section-text h2 {
@@ -587,7 +593,7 @@ html {
   }
 
   .our-section {
-    height: 140vh;
+    height: 165vh;
   }
   .our-section .our-section-div {
     width: 90%;
@@ -607,7 +613,7 @@ html {
   .workers-section {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: z 80%;
     margin-left: 1rem;
   }
 
@@ -629,28 +635,41 @@ html {
     width: 100%;
   }
   .quality-section {
-    height: 150vh;
+    height: 280vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
   .quality-section .quality-section-img img {
-    width: 40vh;
+    width: 17em;
   }
   .quality-section .quality-section-img {
     height: 15em;
+    width: fit-content;
   }
 
-  .quality-section .quality-section-text h1 {
+  .quality-section-text h1 {
+    position: relative;
+    left: 5rem;
     font-size: 2rem;
+    border-bottom: 4px solid red;
+    width: 160px;
+    overflow: hidden;
   }
 
   .quality-section .quality-section-text p {
     font-size: 1rem;
     margin-left: 2%;
   }
+
+  .quality-section-text .but {
+    position: relative;
+    left: 6rem;
+    margin-top: 2rem;
+  }
   .slice {
-    width: 250px;
+    width: 210px;
   }
 
   .our-services {
@@ -662,25 +681,22 @@ html {
     position: relative;
     right: 2rem;
   }
+
+  .services-section-div .img {
+    position: relative;
+    left: 6em;
+  }
   .services-section {
-    height: 260vh;
+    height: 425vh;
   }
   .service-div {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 8rem;
   }
 
   .plumbing-section {
-    background-color: #104e92;
-    display: flex;
-    height: 100vh;
-    padding: 1rem;
-    align-items: center;
-  }
-
-  .plumbing-section {
-    height: 260vh;
+    height: 390vh;
     display: flex;
     flex-direction: column;
   }
