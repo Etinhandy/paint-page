@@ -569,7 +569,7 @@ html {
   }
   .but-2 {
     margin-top: 2rem;
-    margin-left: 5rem;
+    margin-left: 8rem;
   }
   .icon {
     display: none;
@@ -593,7 +593,7 @@ html {
   }
 
   .our-section {
-    height: 165vh;
+    height: 30rem;
   }
   .our-section .our-section-div {
     width: 90%;
@@ -602,6 +602,7 @@ html {
 
   .our-section-div h3 {
     font-size: 1rem;
+    margin-bottom: 1.6rem;
   }
 
   .our-section-div h2 {
@@ -635,7 +636,7 @@ html {
     width: 100%;
   }
   .quality-section {
-    height: 280vh;
+    height: 40rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -651,7 +652,7 @@ html {
 
   .quality-section-text h1 {
     position: relative;
-    left: 5rem;
+    left: 8.58rem;
     font-size: 2rem;
     border-bottom: 4px solid red;
     width: 160px;
@@ -665,7 +666,7 @@ html {
 
   .quality-section-text .but {
     position: relative;
-    left: 6rem;
+    left: 10rem;
     margin-top: 2rem;
   }
   .slice {
@@ -687,7 +688,7 @@ html {
     left: 6em;
   }
   .services-section {
-    height: 425vh;
+    height: 80rem;
   }
   .service-div {
     display: flex;
@@ -696,7 +697,7 @@ html {
   }
 
   .plumbing-section {
-    height: 390vh;
+    height: 70rem;
     display: flex;
     flex-direction: column;
   }
