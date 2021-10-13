@@ -593,7 +593,7 @@ html {
   }
 
   .our-section {
-    height: 30rem;
+    height: 35rem;
   }
   .our-section .our-section-div {
     width: 90%;
@@ -688,7 +688,7 @@ html {
     left: 6em;
   }
   .services-section {
-    height: 80rem;
+    height: 100rem;
   }
   .service-div {
     display: flex;
